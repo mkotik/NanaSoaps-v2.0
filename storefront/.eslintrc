@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["react", "import"],
+  "rules": {
+    "@typescript-eslint/comma-dangle": 0
+  }
+}

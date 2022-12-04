@@ -1,0 +1,9 @@
+{
+  "name": "NanaSoaps-REFACTOR",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "cd dashboard && yarn lint && cd .. && cd storefront && yarn lint && cd .. && cd server && yarn lint"
+  }
+}
