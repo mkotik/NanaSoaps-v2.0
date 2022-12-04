@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  const response: string = "server is working";
+  const response: string = "server IS working";
   res.send(response);
 });
 
