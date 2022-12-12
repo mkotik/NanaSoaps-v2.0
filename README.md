@@ -38,13 +38,13 @@ There are 3 major components to this codebase
 
      1. get into the /server directory: `cd server`
 
-     2. set up and run postgres database
+     2. set up and run PostgreSQL database
 
-        - Install PostgreSQL on your local machine, create a new database.
-        - set up the following variables in a .env file in the /server directory: `POSTGRES_USERNAME`, `POSTGRES_PASSWORD`, `POSTGRES_DB`
+        - Install pgAdmin[https://www.pgadmin.org/] on your local machine, create a new database.
+        - set up the following variables in a `.env` file in the `/server` directory: `POSTGRES_USERNAME`, `POSTGRES_PASSWORD`, `POSTGRES_DB`
         - run migrations `yarn run migrate`
         - run seeds `yarn run seed`
-        - Please note: we are using a default database port of 5432
+        - Please note: we are using a default database port of **5432**
 
      3. Run API
 
