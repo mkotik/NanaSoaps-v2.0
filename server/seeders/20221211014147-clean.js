@@ -1,7 +1,7 @@
 'use strict';
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  async up(queryInterface, Sequelize) {
+  async up(queryInterface) {
     await queryInterface.bulkDelete('categories', null, {});
     await queryInterface.bulkDelete('products', null, {});
     await queryInterface.bulkDelete('images', null, {});
@@ -10,5 +10,7 @@ module.exports = {
     await queryInterface.bulkDelete('orders_products', null, {});
   },
 
-  async down(queryInterface, Sequelize) {},
+  async down() {
+    return null;
+  },
 };

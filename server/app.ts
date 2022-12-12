@@ -7,8 +7,6 @@ dotenv.config();
 
 const {
   sequelize,
-  User,
-  Post,
   Image,
   Category,
   Product,

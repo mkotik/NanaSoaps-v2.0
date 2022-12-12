@@ -1,5 +1,5 @@
 {
-  "name": "NanaSoaps-REFACTOR",
+  "name": "NanaSoaps-v2.0",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,7 +7,5 @@
     "lint": "cd dashboard && yarn lint && cd .. && cd storefront && yarn lint && cd .. && cd server && yarn lint"
   },
   "dependencies": {},
-  "devDependencies": {
-    "@types/sequelize": "^4.28.14"
-  }
+  "devDependencies": {}
 }

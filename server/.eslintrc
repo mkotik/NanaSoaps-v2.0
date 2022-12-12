@@ -1,7 +1,7 @@
 {
   "extends": ["airbnb-typescript"],
   "parserOptions": {
-    "project": "./server/tsconfig.json"
+    "project": "./tsconfig.json"
   },
   "rules": {
     "@typescript-eslint/comma-dangle": "off"
