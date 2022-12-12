@@ -5,5 +5,9 @@
   "license": "MIT",
   "scripts": {
     "lint": "cd dashboard && yarn lint && cd .. && cd storefront && yarn lint && cd .. && cd server && yarn lint"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/sequelize": "^4.28.14"
   }
 }

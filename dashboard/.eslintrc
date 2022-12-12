@@ -1,7 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "airbnb-typescript"],
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./dashboard/tsconfig.json"
   },
   "plugins": ["react", "import"],
   "rules": {
