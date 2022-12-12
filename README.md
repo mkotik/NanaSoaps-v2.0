@@ -40,7 +40,7 @@ There are 3 major components to this codebase
 
      2. set up and run PostgreSQL database
 
-        - Install pgAdmin[https://www.pgadmin.org/] on your local machine, create a new database.
+        - Install [pgAdmin](https://www.pgadmin.org/) on your local machine, create a new database.
         - set up the following variables in a `.env` file in the `/server` directory: `POSTGRES_USERNAME`, `POSTGRES_PASSWORD`, `POSTGRES_DB`
         - run migrations `yarn run migrate`
         - run seeds `yarn run seed`
