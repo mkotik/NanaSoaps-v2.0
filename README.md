@@ -1,3 +1,5 @@
+[![Nanas Soaps banner](banner.png)](https://main--musing-goldberg-c3d5b7.netlify.app/)
+
 # Nana's Soaps
 
 Welcome to Nana's Soaps, your one-stop shop for all of your soap needs. Our soaps are made using the finest natural ingredients and are carefully crafted to leave your skin feeling clean and refreshed.
